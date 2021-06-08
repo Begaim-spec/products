@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1440px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.product{
+    text-align: center;
+    margin: 69px 149px 113px;
+}
+.col-4{
+    width: 30%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.products-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    line-height: 37px;
+    z-index: 2;
+}
+.product-desc{
+    font-size: 16px;
+    line-height: 24px;
+    color: #170C04;
+    opacity: 0.6;
+    margin: 11px 31px 24px;
+}
+.product-box {
+    position: relative;
+    margin: 9px 25px 18px;
+}
+.product-box svg{
+    position: absolute;
+}
+.link{
+    text-decoration: none;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E27B3A;
+}
+.product-box{
+    position: relative;
+}
+.product-box svg{
+    position: absolute;
+    bottom: 50%;
+    left: 170px;
+}
+.image-space {
+    position: absolute;
+    top: -45%;
+    left: 40%;
+}
+.product-border{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.goods{
+    text-align: center;
+}
+.col-6{
+    width: 50%;
+}
+.goods-title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    color: #170C04;
+}
+.goods-icon{
+    width: 555px;
+    height: 420px;
+    background: #FCF2EB;
+    border-radius: 20px;
+    text-align: center;
+}
+.goods-icon img{
+    padding: 58px 126px;
+}
+.goods-desc{
+    margin:25px 18px;
+}
+.goods-place{
+    width: 360px;
+    height: 273px;
+    left: 930px;
+    top: 1184px;
+    background: #FCF2EB;
+    border-radius: 10px;
+}
+.goods-place img{
+    padding: 55px;
+}
+.link{
+    margin-bottom: 66px;
+}
+.link-last{
+    display: inline-block;
+    margin: 58px 0 81px;
+    color: #E27B3A;
+    text-decoration: none;
+
+}
